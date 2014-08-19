@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Our Story of 736859708&loveminds</title>
+		<title>Our Wedding of 22185608&loveminds</title>
 	    
         <link type="text/css" rel="stylesheet" href="story/default.css">
 		<script type="text/javascript" src="story/jquery.js"></script>
@@ -19,7 +19,7 @@
         </style>
 </head>
     <body>
-			<audio autoplay="autopaly">
+			<audio autoplay loop>
 					<source src="http://bcs.duapp.com/loveme/ALittleLove.mp3?sign=MBO:44132affe7851bbe83324559151ad2ff:zNV3iBBHzwIPeDL1qAoZRSffvwU=" type="audio/mp3" />
 			</audio>
         <div id="main">
@@ -27,30 +27,30 @@
             <div id="wrap">
                 <div id="text">
 			        <div id="code">
-			        	<span class="say">* Our Story</span><br>
+			        	<span class="say">* 我们结婚了</span><br>
 						<span class="say"> </span><br>
-			        	<span class="say"> For <a href="http://tieba.baidu.com/home/main?id=6f713733363835393730387202&fr=itb" alt="736859708">胖胖</a>&<a href="http://tieba.baidu.com/home/main?id=982fcfebc6f0c6aed1a93232326206&fr=itb" alt="loveminds">海燕</a></span><br>
+			        	<span class="say"> From <a href="http://user.qzone.qq.com/22185608/" alt="22185608">王纲</a> & <a href="" alt="loveminds">黄海燕</a></span><br>
 						<span class="say"> </span><br>
-                        <span class="say">// 不经意相识, 或许是缘分，或许是注定的。</span><br>
+                        <span class="say">// 或许是缘分,或许是天注定.</span><br>
 						<span class="say"> </span><br>
-			        	<span class="say">// 以后不管有怎么样，我都会在。</span><br>
+			        	<span class="say">// 不经意相识,让我遇见你.</span><br>
 						<span class="say"> </span><br>
-			        	<span class="say">// 就算全世界都都抛弃你，记得还有我。</span><br>
+			        	<span class="say">// 你的世界不再孤单,从此有了我的陪伴.</span><br>
 						<span class="say"> </span><br>
-			        	<span class="say">// 再累都不用害怕，因为你有我。</span><br>
+			        	<span class="say">// 无论世间如何变迁,我会永远守在你的身边.</span><br>
 						<span class="say"> </span><br>
-			        	<span class="say">// 记得在你最需要的时候想起我。</span><br>
+			        	<span class="say">// 死生契阔,与子成说;执子之手,与子偕老</span><br>
+                        <span class="say"> </span><br><br>
+                        <span class="say">// 期待您与我们一同见证</span><br>
 						<span class="say"> </span><br>
-			        	<span class="say">// 我会一直陪着你。</span><br>
-                        <span class="say"> </span><br>
-                        <span class="say">// ..永远的..</span><br>
-						<span class="say"> </span><br>
-                        <span class="say"><span class="space"></span>海燕 与 胖胖</span>
-			        </div>
+                        <span class="say"><span class="space"></span>2014年10月02日 11:00AM</span><br>
+						<span class="say"><span class="space"></span>四川自贡新新嘉园酒店</span>			        
+					</div>
                 </div>
                 <div id="clock-box">
-                    Gang Wang<span class="STYLE1">与</span>HaiYan Huang<span class="STYLE1">已经相识了</span>
-                  <div id="clock"></div>
+                    <span id="clock-title" class="STLE1">距离我们的婚礼</span>
+                <div id="clock">
+				</div>
               </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
             </div>
@@ -172,7 +172,7 @@
             foot.draw();
             tree.snapshot("p2", 500, 0, 610, 680);
 
-            // 会有闪烁不得意这样做, (＞﹏＜)
+            //会有闪烁不得意这样做, (＞﹏＜)
             canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
             canvas.css("background", "#ffe");
             $await(Jscex.Async.sleep(300));
@@ -190,19 +190,32 @@
         }));
 
         var textAnimate = eval(Jscex.compile("async", function () {
-		    var together = new Date();
-		    together.setFullYear(2011, 09, 03); 			//时间年月日
-		    together.setHours(14);						//小时	
-		    together.setMinutes(15);					//分钟
-		    together.setSeconds(0);					//秒前一位
-		    together.setMilliseconds(0);				//秒第二位
-
-		    $("#code").show().typewriter();
-            $("#clock-box").fadeIn(500);
-            while (true) {
-                timeElapse(together);
-                $await(Jscex.Async.sleep(1000));
-            }
+		    //var together = new Date();
+			//together.setFullYear(2014, 07, 19); 		//时间年月日
+			//together.setHours(17);						//小时	
+			//together.setMinutes(13);					//分钟
+			//together.setSeconds(0);						//秒前一位
+			//together.setMilliseconds(0); 				//秒第二位
+			
+			var together=new Date(2014, 09, 02, 11, 00, 0);
+			
+			var linedate = Date();
+			
+			if(linedate > together)
+			{
+				together.setFullYear(2011, 08, 03); 		//时间年月日
+				together.setHours(11);						//小时	
+				together.setMinutes(0);						//分钟
+				together.setSeconds(0);						//秒前一位
+				together.setMilliseconds(0);				//秒第二位
+			}			
+			
+			$("#code").show().typewriter();
+			$("#clock-box").fadeIn(500);
+			while (true) {
+				timeElapse(together);
+				$await(Jscex.Async.sleep(1000));
+			}
         }));
 
         var runAsync = eval(Jscex.compile("async", function () {
